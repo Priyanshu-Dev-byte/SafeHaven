@@ -101,7 +101,7 @@ public class ScreenOnOffReceiver extends BroadcastReceiver {
             countDownTimer.cancel ();
             timer=0;
         }
-        if (powerBtnTapCount ==3) { // ?
+        if (powerBtnTapCount ==4) { // ?
             if(mediaPlayer.isPlaying ()){
                 mediaPlayer.stop ();
                 mediaPlayer.setLooping (false);

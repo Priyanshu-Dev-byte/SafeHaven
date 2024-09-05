@@ -23,7 +23,8 @@
                 android:layout_height="wrap_content"
                 android:text="LadyBuddy"
                 android:textColor="@color/cardview_light_background"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:visibility="invisible" />
 
             <TextView
                 android:id="@+id/texttagline"
